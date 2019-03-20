@@ -20,10 +20,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans:400i,600" rel="stylesheet">
 
 	<header>
-	<nav class="navbar">
+<!-- 	<nav class="navbar navbar navbar-expand-lg">
  	 <a class="navbar-brand" href="#">
     <img src="assets/images/brand.png" class="d-inline align-top" alt="brandlogo">
  	 </a>
+
+ 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+
 
  	 <form class="form-inline" id="nav-item">
  	 	<ul class="nav">
@@ -42,25 +47,58 @@
 		</ul>
     </form>
 
-	</nav>
+	</nav> -->
+
+			<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#">
+				<img src="assets/images/brand.png" class="d-inline align-top" alt="brandlogo">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#project">Project</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#footer">Contact</a>
+					</li>
+
+				</ul>
+			</div> <!-- end navbar items -->
+		</nav> <!-- end navbar -->	
+
+
+
 	</header>
 
 	<div class="jumbotron mb-0">
 	<h1 class="display-1 bonjour">Aloha!</h1>
 		<div class="container-fluid row">
 				
-				<div class="right col-lg-6">
+				<div class="col-lg-4 col-md-6">
 				 <div class="circle">
-				 <img src="#"alt="ProfilePicture">
+				 <img src="assets/images/dp1.png" alt="ProfilePicture" class="dp">
 				 </div>
 				</div>
 				
 
-				<div class="jumbotron-p col-lg-6">
-					<p class="lead"> I am an Aspiring Fullstack Developer and a Part-time Geek Located at Manila, Philippines. I enjoy creating responsive website and building apps.</p>
+				<div class="jumbotron-p col-lg-6 col-md-5">
+					<p class="lead"> I am an Aspiring Fullstack Developer and a Part-time Geek Located at Manila, Philippines. I enjoy creating and designing websites.</p>
+				</div>		
 
-
-				</div>			
 		</div> <!-- end of row -->
 
 				<div class="arrow bounce">
@@ -69,70 +107,60 @@
 	</div> <!-- end of jumbotron -->
 
 	 <section id="skills">
-<!-- 	 	<div>
-		<h1 class="display-1 skills">Skills</h1>
-		<h2 class="display-4">Front-end Development</h2>
-		<ul class=front-end>	
-			<li class="front-end">HTML:</li>
-			<li>CSS:</li>
-			<li>Bootstrap:</li>
-			<li>Javascript:</li>
-		</ul>
-		</div> -->
 				<div class="container">
 				<h2 class="display-3 skills">Skills</h2>
 				<hr class="my-3">
 				<h4 class="display-5 devskill">Front-end Development</h4>
 				<ul class="ul-devskill">
-					<li><!-- <img src="assets/images/css3.png" alt="icon"> -->
-						CSS<span id="checked" class="fa fa-star"></span>
-						<span id="checked" class="fa fa-star"></span>
-						<span id="checked" class="fa fa-star"></span>
+					<li>
+						CSS <span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star"></span>
 						<span class="fa fa-star"></span>
 						</span><!-- </li> -->
-					<li><!-- <img src="assets/images/HTML5.png"	alt="icon"> -->
-						HTML<span id="checked" class="fa fa-star"></span>
-						<span id="checked"class="fa fa-star"></span>
-						<span id="checked"class="fa fa-star"></span>
+					<li>
+						HTML <span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star"></span>
 						<span class="fa fa-star"></span>
 						</li>
-					<li><!-- <img src="assets/images/bootstrap.png"	alt="icon"> -->
-						Bootstrap<span id="checked"class="fa fa-star"></span>
-						<span id="checked" class="fa fa-star"></span>
-						<span id="checked" class="fa fa-star"></span>
+					<li>
+						Bootstrap <span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star"></span>
 						<span class="fa fa-star"></span>
 						</li>
 				</ul>
 				<h4 class="display-5 devskill">Back-end Development</h4>
 				<ul class="ul-devskill">
-					<!-- <img src="assets/images/php.png"	alt="icon"> --><li>Php
+					<li>Php
 					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
 					<span class="fa fa-star"></span>
 					<span class="fa fa-star"></span>
 					</li>
 					<!-- <img src="assets/images/jquery.png"	alt="icon"> --><li>Javascript
 					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
 					<span class="fa fa-star"></span>
 					<span class="fa fa-star"></span>
 					</li>
 					<!-- <img src="assets/images/mysql.jpg"	alt="icon"> --><li>MySQL
 					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
 					<span class="fa fa-star"></span>
 					<span class="fa fa-star"></span>
 					</li>
 					<!-- <img src="assets/images/Laravel.png"	alt="icon"> --><li>Laravel
 					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
 					<span class="fa fa-star"></span>
 					<span class="fa fa-star"></span>
 					</li>
@@ -141,26 +169,34 @@
 	</section> <!-- end of skill section -->
 	<section id="project">
 		<div class="jumbotron2">
-			<h2 class="display-5 project">My Latest Works</h2>
+			<h2 class="display-4 project">My Latest Works</h2>
 				<div class="row m-0">
 					<div class="col-sm-3 col-md-4">
 					  <div class="card">
-					    <img class="card-img-top" src="assets/images/error404.gif" width="100px" height="250px" alt="card-image">
+					    <img class="card-img-top" src="assets/images/art-builders.jpg" width="100px" height="250px" alt="card-image">
 					      <div class="card-body">
 					        <h5 class="card-title">Art builders</h5>
 					        <p class="card-text">Art Builders is a global engineering, architecture, consulting and construction firm that caters appartment developments, luxury residences and boutique commercial projects.
 							</p>
-					        <a href="https://adrianescoto.github.io/art-builders/" class="btn btn-dark">Visit Me!</a>
+
+							<p class="card-text">Language Used: HTML | CSS
+							</p>
+
+					        <a href="https://adrianescoto.github.io/art-builders/" class="btn btn-dark" target="_blank">Visit Me!</a>
 					      </div>
 					    </div>
 					  </div>
 					  <div class="col-sm-3 col-md-4">
 					    <div class="card">
-					    <img class="card-img-top" src="assets/images/error404.gif" width="100px" height="250px" alt="card-image">
+					    <img class="card-img-top" src="assets/images/pizza-cartel.png" width="100px" height="250px" alt="card-image">
 					      <div class="card-body">
-					        <h5 class="card-title">Capstone 2</h5>
-					        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-					        <a href="#" class="btn btn-dark">Visit Me!</a>
+					        <h5 class="card-title">Pizza Cartel</h5>
+					        <p class="card-text">Pizza Cartel established in 1999 when CEO Adrian was still working as a full-time developer on a prestigious company. He knew that one day he wanted to open his own Pizzeria.</p>
+
+					        <p class="card-text">Language Used: HTML | CSS | Javascript | PHP | MYSQL
+							</p>
+
+					        <a href="https://pizzacartel-ph.000webhostapp.com/pizza-cartel/app/views/" class="btn btn-dark" target="_blank">Visit Me!</a>
 					      </div>
 					    </div>
 					  </div>					  
@@ -168,8 +204,8 @@
 					    <div class="card">
 					    <img class="card-img-top" src="assets/images/error404.gif" width="100px" height="250px" alt="card-image">
 					      <div class="card-body">
-					        <h5 class="card-title">Capstone 3</h5>
-					        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					        <h5 class="card-title">GameStaph</h5>
+					        <p class="card-text">Site is still underconstruction.</p>
 					        <a href="#" class="btn btn-dark">Visit Me!</a>
 					      </div>
 					    </div>
@@ -180,15 +216,14 @@
 	
 	<footer id="footer"class="container-fluid">
 		<div class="row">
-		<div class="col-sm-5 col-lg-5">
+		<div class="col-sm-12 col-lg-4">
 		<h2 class="display-5 contact" >Contact Me!</h2>
-			<form>
-			  <div class="form-row">
+			<form id="footer-form">
 			    <div class="form-group">
 			      <label for="inputName">Your Name</label>
 			      <input type="text" class="form-control">
 			    </div>
-			  </div>
+
 			  <div class="form-group">
 			    <label for="inputEmail">Your Email</label>
 			    <input type="email" class="form-control" id="inputEmail">
@@ -205,9 +240,9 @@
 			</form>
 
 		</div><!--  end of 1st column -->
-			<div class="col-sm-2 col-lg-2" id="foot-nav">
+			<div class="col-sm-12 col-lg-4" id="foot-nav">
 				<form class="form-block" id="nav-item">
-			 	 	<ul class="nav">
+			 	 	<ul class="nav d-flex justify-content-center">
 					  <li class="nav-item foot-nav">
 					    <a class="nav-link" href="#">About</a>
 					  </li>
@@ -218,27 +253,27 @@
 					    <a class="nav-link" href="#project">Project</a>
 					  </li>
 					  <li class="nav-item foot-nav">
-					    <a class="nav-link" href="#">Contact</a>
+					    <a class="nav-link" href="#footer">Contact</a>
 					  </li>
 					</ul>
 			    </form>
 			</div><!--  end of 2nd column -->
-			<div class="col-sm-5">
+			<div class="col-sm-12 col-lg-4">
 				<div class="icon">
-				<i class="fab fa-github-square"></i>
-				<i class="fas fa-envelope-square"></i>
-				<i class="fab fa-linkedin"></i>
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-twitter-square"></i>
+				<i class=" fab fa-github-square"></i>
+				<i class=" fas fa-envelope-square"></i>
+				<i class=" fab fa-linkedin"></i>
+				<i class=" fab fa-facebook"></i>
+				<i class=" fab fa-twitter-square"></i>
 				</div>
 
-				<address>
+				<address class="address">
 					<p>#3 St. Joseph St.</p>
 					<p>Quezon City, Philippines 1100</p>
 					<p>+639165185634</p>
-					adrianescto@gmail.com
+					adrian.escto@gmail.com
 				</address>
-				<button type="submit" class="btn btn-light send1">Check Out my CV!</button>
+				<a href="https://drive.google.com/file/d/1qbqOdBFMKCfIeOReqWKfEM5gsxt_l5gm/view?usp=sharing" target="_blank" class="btn btn-light send1">Check Out my CV!</a>
 			</div>
 		</div>
 	</footer>
@@ -249,29 +284,6 @@
 
 
 
-
-<!-- word used: Do you have any Ideas orProject in mind? Hit me a
-message and I will get 
-you a coffee. -->
-
-<!-- quote used: “You can only become
-truly accomplished at
-something you love.
-Don’t make money your
-goal. Instead, pursue the
-things you love doing and
-then do them so well that
-people can’t take their 
-eyes of you”
-- Maya Angelou
- -->
-
-<!-- hex used:
-blue: #00a99d
-yellow: #f7931e
-white: #f2f2f2
-grey: #333333
- -->
 
 
 
